@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carlos Antón | Ingeniería en Sistemas Computacionales</title>
+  <meta name="description" content="Portafolio de Carlos Alberto Antón Sevilla, estudiante de Ingeniería en Sistemas Computacionales en el ITESO.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav" id="nav">
+    <a href="#inicio" class="logo">&lt;carlos/&gt;</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+    <nav id="menu">
+      <a href="#perfil">Perfil</a>
+      <a href="#formacion">Formación</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#intereses">Intereses</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container">
+        <p class="mono accent">// hola, mundo</p>
+        <h1>Carlos Alberto<br><span class="grad">Antón Sevilla</span></h1>
+        <p class="typing mono">Estudiante de <span id="typed"></span><span class="cursor">|</span></p>
+        <p class="lead">Curioso, analítico y autodidacta. Me gusta entender cómo funcionan las cosas y llevar las ideas a la práctica construyendo soluciones funcionales.</p>
+        <div class="cta">
+          <a href="#proyectos" class="btn primary">Ver proyecto</a>
+          <a href="#contacto" class="btn">Contacto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="perfil" class="reveal">
+      <div class="container">
+        <h2><span class="mono accent">01.</span> Sobre mí</h2>
+        <div class="two-col">
+          <div>
+            <p>Soy Carlos, estudiante de Ingeniería en Sistemas Computacionales en el ITESO, Guadalajara, Jalisco, México.</p>
+            <p>Tengo formación técnica en Desarrollo de Software por el CETI Colomos, donde adquirí conocimientos y experiencia práctica en programación, bases de datos, desarrollo web y resolución de problemas tecnológicos.</p>
+          </div>
+          <div class="card quote">
+            <p class="mono accent">filosofía.md</p>
+            <p>Las habilidades se construyen mediante la práctica, la disciplina y la disposición de enfrentarse a cosas que todavía no dominamos. Me gusta salir de mi zona de confort, experimentar, equivocarme y comprender por qué algo funciona o no.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacion" class="reveal">
+      <div class="container">
+        <h2><span class="mono accent">02.</span> Formación académica</h2>
+        <div class="timeline">
+          <div class="card">
+            <h3>Ingeniería en Sistemas Computacionales</h3>
+            <p class="mono muted">ITESO · Guadalajara</p>
+          </div>
+          <div class="card">
+            <h3>Tecnólogo en Desarrollo de Software</h3>
+            <p class="mono muted">CETI Colomos</p>
+          </div>
+          <div class="card">
+            <h3>Bases técnicas</h3>
+            <p class="muted">Programación, estructuras de datos, bases de datos, desarrollo web y fundamentos de sistemas computacionales.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="reveal">
+      <div class="container">
+        <h2><span class="mono accent">03.</span> Proyecto destacado</h2>
+        <div class="card project">
+          <h3>Mensajeros x la Vida</h3>
+          <p>Aplicación web progresiva (PWA) desarrollada como proyecto académico. Participé en la construcción de una solución tecnológica con una arquitectura de aproximadamente 40 tablas de base de datos, un desarrollo considerable de funcionalidades y documentación técnica.</p>
+          <p class="muted">Representa mi experiencia llevando una idea a una solución tecnológica estructurada y funcional.</p>
+          <ul class="tags">
+            <li>Node.js</li><li>Express.js</li><li>PostgreSQL</li><li>Bases de datos relacionales</li><li>PWA</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="reveal">
+      <div class="container">
+        <h2><span class="mono accent">04.</span> Habilidades y fortalezas</h2>
+        <ul class="tags big">
+          <li>Pensamiento lógico y analítico</li>
+          <li>Resolución de problemas</li>
+          <li>Aprendizaje autodidacta</li>
+          <li>Desarrollo de software</li>
+          <li>Bases de datos relacionales</li>
+          <li>JavaScript y ecosistema Node.js</li>
+          <li>Organización y documentación de proyectos</li>
+          <li>Curiosidad intelectual</li>
+          <li>Capacidad para enfrentar desafíos</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="intereses" class="reveal">
+      <div class="container">
+        <h2><span class="mono accent">05.</span> Intereses</h2>
+        <div class="grid">
+          <div class="card"><span class="ico">💻</span><h3>Tecnología</h3><p class="muted">Programación, inteligencia artificial, hardware, redes y sistemas computacionales.</p></div>
+          <div class="card"><span class="ico">🏋️</span><h3>Entrenamiento</h3><p class="muted">Fuerza, hipertrofia y mejora del rendimiento físico.</p></div>
+          <div class="card"><span class="ico">🧗</span><h3>Escalada</h3><p class="muted">Boulder y escalada deportiva.</p></div>
+          <div class="card"><span class="ico">🥾</span><h3>Senderismo</h3><p class="muted">Exploración de rutas naturales y actividades al aire libre.</p></div>
+          <div class="card"><span class="ico">♟️</span><h3>Ajedrez</h3><p class="muted">Pensamiento estratégico, análisis y resolución de problemas.</p></div>
+          <div class="card"><span class="ico">🎮</span><h3>Videojuegos</h3><p class="muted">Narrativa, complejidad y construcción de mundos.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="reveal">
+      <div class="container center">
+        <h2><span class="mono accent">06.</span> Contacto</h2>
+        <p class="lead">¿Quieres platicar de tecnología, proyectos o escalada? Escríbeme.</p>
+        <a class="btn primary" href="mailto:carlos.antonsevilla@gmail.com">carlos.antonsevilla@gmail.com</a>
+        <p><a class="muted" href="https://github.com/bycarlosanton" target="_blank" rel="noopener">github.com/bycarlosanton</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="mono muted">© <span id="year"></span> Carlos Alberto Antón Sevilla · ITESO</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
